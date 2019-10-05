@@ -57,7 +57,7 @@ body{
 .sidenav {
     padding-top: 100px;
     height: 100%;
-    width: 7vw;
+    max-width: 7vw;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -73,7 +73,8 @@ body{
  
 
   .sidenav li img {
-      margin-left: 60px;
+      margin-left: 50%;
+      margin-right: 10%;
   }
 
   .sidenav li{
@@ -126,6 +127,7 @@ body{
       color: #3EBCB3;
       font-weight: 520;
       margin-top: 10px;
+      
       
   }
   .button-hollow-card{
@@ -219,6 +221,47 @@ footer ul{
     margin-left: 36%;
 
 } 
+
+/* Media query */
+
+@media only screen and (max-width: 600px) {
+    .nav-icons{
+    
+        width: 150%;
+        height: auto;
+        margin-top: 50%;
+        margin-right: 0%;
+        float: right;
+        
+    }
+    
+    .dp{
+        margin-top: 8%;
+        margin-bottom: auto;
+        width: 30%;
+        height: 30%;
+        margin-left : 3%;
+        margin-right: 65%;
+        float: right;
+        
+    }
+    .sidenav li img {
+        margin-left: 20%;
+        margin-right: 10%;
+    }
+    .button-hollow{
+        background-color: #f9fbfb;
+        /* padding: 8% 10%; */
+        cursor: pointer;
+        border: solid 1.3px #3EBCB3;
+        border-radius: 4px;
+        color: #3EBCB3;
+        font-weight: 520;
+        font-size: 2vw;
+        
+    }
+    
+  }
 
 
 
