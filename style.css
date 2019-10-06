@@ -260,6 +260,19 @@ footer ul{
         font-size: 2vw;
         
     }
+    .button-hollow-card{
+        background-color: #f9fbfb;
+        /* padding: 8px 40px; */
+        padding : 2vw 8vw;
+        cursor: pointer;
+        border: solid 1.2px #3EBCB3;
+        
+        color: #3EBCB3;
+        font-weight: 520;
+        margin-top: 10px;
+        font-size: 1vw;
+        
+    }
     
   }
 
